@@ -22,7 +22,7 @@ body {
 
 .navbar ul li a {
     text-decoration: none;
-    padding: 0 10px 0px 0px;
+    padding: 0px 35px 0px 0px;
     font-family: 'Italiana';
     font-style: normal;
     font-weight: 400;
@@ -31,7 +31,6 @@ body {
     text-align: center;
     color: #000000;
 }
-
 .navbar h2 {
     font-family: 'Redressed';
     font-style: normal;
@@ -54,22 +53,89 @@ body {
     color: #000000;
 }
 /* photo and text section start  */
-.main-photo{
-    border: 4px solid rgb(218, 64, 102);
-    width: 670px;
-    height: 558px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    text-align: center;
-}
 .shadow-photo{
     background-image: url(images/gideon-hezekiah-FYxhALJcywI-unsplash\ 1.png);
-    background-color: #cccccc;     
-    height: 50vh; 
-    width: 50vh;
-    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    position: relative;
+    background-size: 100% 100%;
+    width: 418px;
+    height: 634px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+}
+.shadow {
+    position: absolute;
+    width: 360px;
+    height: 652px;
+    left: -90px;
+    top: 0px;
+    background: rgba(217, 217, 217, 0.33);
+    border: 1px solid rgba(0, 0, 0, 0.17);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.text {
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000000;
+    left: -404px;
+    position: relative;
+    top: 48%;
+    margin-top: -366px;
+    margin-bottom: -81px;
+}
+.cycle {
+    background: rgba(255, 255, 255, 0.41);
+    width: 267px;
+    height: 267px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    left: 900px;
+    border-radius: 100%;
+    bottom: 115px;
+}
+.cycle span {
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;   
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    color: #000000;
+    margin-right: -100px;
+}
+.cycle-2 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: #FFFFFF;
+    border-radius: 100%;
+    bottom: 160px;
+    left: 141px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.icons ul {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+.icons ul li {
+    list-style: none;
+    padding: 0px 35px;
 }
