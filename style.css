@@ -139,3 +139,6 @@ body {
     list-style: none;
     padding: 0px 35px;
 }
+.icons ul li a {
+    font-size: 20px;
+}
